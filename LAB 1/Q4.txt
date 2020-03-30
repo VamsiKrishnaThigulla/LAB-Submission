@@ -1,0 +1,9 @@
+USE OF GCD:
+
+1.A simple method to find time for polling. For exaple we have two I/O devices one capable of changing state every 10ms, and 
+the other changing state every 15 ms, then if we want to check for I/O we can find the gcd of the response times (5 ms) and 
+use this to  get the frequency at which polling can be done. This is however not always optimal (if times are coprime), in 
+such a case the complexity of the code/ hardware can be increased to optimise operation.
+
+2.If uniform blocks of memory are required, then GCD of available free space will give the maximum block size which can be used,
+such that no memory is wasted.
