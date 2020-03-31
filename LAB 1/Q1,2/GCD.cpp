@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include"gcd_euclid.h"
-#include"gcd_brute.h"
-#include "gcd_binary.h"
+#include"makefiles/gcd_euclid.h"
+#include"makefiles/gcd_brute.h"
+#include"makefiles/gcd_binary.h"
 
 int main()
 {

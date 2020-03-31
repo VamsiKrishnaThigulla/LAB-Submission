@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
-#include"gen_gcdi.h"
-#include"gen_gcdr.h"
+#include"makefiles/gen_gcdi.h"
+#include"makefiles/gen_gcdr.h"
 
 int main()
 {

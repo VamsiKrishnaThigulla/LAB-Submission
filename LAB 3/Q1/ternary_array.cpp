@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
-#include"bubble_sort.h"
-#include"disp_arr.h"
-#include"ter_sort.h"
-#include"hash_chain_sort.h"
+#include"makefiles/bubble_sort.h"
+#include"makefiles/disp_arr.h"
+#include"makefiles/ter_sort.h"
+#include"makefiles/hash_chain_sort.h"
 using namespace std;
 
 int main()
